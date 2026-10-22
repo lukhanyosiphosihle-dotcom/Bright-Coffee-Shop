@@ -91,15 +91,3 @@ Created Excel pivot tables to summarise revenue by product category, month, day 
 **Step 6: Data Visualisation:**
 
 Developed charts and a sales dashboards using Power BI, Data Studio and Databricks to present the results in a clear, accessible format, allowing users to compare performance across categories, time of the day, month and locations. 
-
-**6. Business Recommendations:** 
-
-Maintain product availability and service quality for high-revenue categories, particularly coffee and tea.
-
-Investigate the factors contributing to June’s higher revenue and February’s lower revenue. 
-
-Explore targeted promotions and product bundles to improve evening sales. 
-
-Compare product performance across locations to identify opportunities for location-specific promotions. 
-
-Monitor monthly revenue growth to evaluate whether sales performance is improving over time. 
