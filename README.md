@@ -2,17 +2,17 @@
 
 Bright Coffee Shop Sales Analysis
 
-1. Project Overview
+1.**Project Overview**
 
 Analysed six months of coffee shop transaction data (January–June 2023) to evaluate revenue performance, product demand, monthly trends, store performance and customer purchasing patterns.
 
 The objective was to uncover revenue drivers, identify underperforming areas and provide actionable recommendations to support business decision-making.
 
-2. Business Problem
+2. **Business Problem**
 
 Management needed a consolidated view of sales performance across product categories, store locations and time periods to better understand revenue trends, identify sales opportunities and address underperforming areas.
 
-3. Technologies Used
+3. **Technologies Used**
 
 * SQL | Databricks
 * Microsoft Excel
@@ -20,7 +20,7 @@ Management needed a consolidated view of sales performance across product catego
 * Google Data Studio
 * Lovable
 
-4. Analytical Process
+4.**Analytical Process**
 
 1. Data Preparation: Selected relevant transaction fields and prepared the dataset for analysis.
 2. SQL Transformation: Used Databricks SQL to clean, transform and aggregate transaction data.
@@ -28,7 +28,7 @@ Management needed a consolidated view of sales performance across product catego
 4. Excel Analysis: Developed pivot tables to summarise and compare sales performance.
 5. Data Visualisation: Built interactive dashboards using Power BI and Google Data Studio to communicate findings.
 
-5. Key Findings
+5. **Key Findings**
 
 Revenue Performance
 
@@ -57,7 +57,7 @@ Time-of-Day Performance
 
 Afternoon generated the highest revenue, while evening represented the weakest sales period.
 
-6. Business Recommendations
+6.**Business Recommendations**
 
 * Investigate evening sales opportunities through targeted promotions and product offers.
 * Leverage the popularity of coffee and tea to strengthen revenue generation.
