@@ -1,93 +1,65 @@
 **Project Overview**
 
-This Bright Coffee Shop Sales Analysis project focuses on analysing coffee shop sales data to identify revenue trends, customer purchasing patterns, product performance, differences in sales across store locations and provide actionable business recommendations  
+Bright Coffee Shop Sales Analysis
 
-**The analysis aims to:**
+1. Project Overview
 
-Analyse overall revenue and product sales performance. 
+Analysed six months of coffee shop transaction data (January–June 2023) to evaluate revenue performance, product demand, monthly trends, store performance and customer purchasing patterns.
 
-Identify the highest and lowest performing product categories. 
+The objective was to uncover revenue drivers, identify underperforming areas and provide actionable recommendations to support business decision-making.
 
-Examine monthly revenue trends. 
+2. Business Problem
 
-Compare sales performance across store locations. 
+Management needed a consolidated view of sales performance across product categories, store locations and time periods to better understand revenue trends, identify sales opportunities and address underperforming areas.
 
-Identify the time periods generating the most revenue.
+3. Technologies Used
 
-Provide data driven recommendations to improve business performance. 
+* SQL | Databricks
+* Microsoft Excel
+* Power BI
+* Google Data Studio
+* Lovable
 
-**2. Business Question:**
+4. Analytical Process
 
-Bright cofee Bright Coffee Shop generates sales across multiple product categories, store locations and times of the day. However, without a consolidated view of its sales performance, management may struggle to identify the key drivers of revenue, understand monthly sales fluctuations, and recognise underperforming products or periods. 
+1. Data Preparation: Selected relevant transaction fields and prepared the dataset for analysis.
+2. SQL Transformation: Used Databricks SQL to clean, transform and aggregate transaction data.
+3. Exploratory Analysis: Investigated revenue trends across product categories, months, locations and time periods.
+4. Excel Analysis: Developed pivot tables to summarise and compare sales performance.
+5. Data Visualisation: Built interactive dashboards using Power BI and Google Data Studio to communicate findings.
 
-**5.Key Findings:**
+5. Key Findings
 
-**Revenue Performance:**
+Revenue Performance
 
-Total revenue: Approximately 698,812.33 across the period analysed (2023-01-01 - 2023-06-30)
+* Total revenue reached approximately 698,812.33.
+* Coffee was the leading category, generating 269,952.45.
+* Packaged Chocolate was the lowest-performing category, generating 4,407.64.
 
-Top-performing category: Coffee generated approximately 269,952.45, making it the largest revenue contributor. 
+Monthly Performance
 
-Second-highest category: Tea generated approximately 196,405.95. 
+* June recorded the highest revenue at 166,485.88.
+* February recorded the lowest revenue at 76,145.19.
+* June revenue was more than double February’s.
 
-Lowest-performing category: Packaged Chocolate generated approximately 4,407.64. 
+Store Performance
 
-**Monthly Revenue Trends:**
+* Hell’s Kitchen: 236,511.17
+* Astoria: 232,243.91
+* Lower Manhattan: 230,057.25
 
-June recorded the highest monthly revenue at approximately 166,485.88. 
+Time-of-Day Performance
 
-February recorded the lowest monthly revenue at approximately 76,145.19 among the months shown. 
+* Afternoon: 244,855.14
+* Mid-morning: 220,162.06
+* Peak-hour morning: 168,126.61
+* Evening: 65,668.52
 
-Revenue increased considerably from February to June, with June generating more than twice February’s revenue. 
+Afternoon generated the highest revenue, while evening represented the weakest sales period.
 
-**Store Location Performance:**
+6. Business Recommendations
 
-Hell’s Kitchen generated the highest revenue, at approximately 236,511.17. 
-
-Astoria generated approximately 232,243.91. 
-
-Lower Manhattan generated approximately 230,057.25. 
-
-Revenue was relatively evenly distributed across the three locations, although Hell’s Kitchen recorded the highest total. 
-
-**Revenue by Time of Day:**
-
-Afternoon: 244,855.14 
-
-Mid-morning: 220,162.06
-
-Peak-hour morning: 168,126.61 
-
-Evening: 65,668.52 
-
-Afternoon generated the highest revenue, followed by mid-morning. Evening recorded the lowest revenue, suggesting that the business could investigate opportunities to improve sales during this period 
-
-**3. Technologies Used:**
-
-SQL, Databricks, Microsoft Excel, Power BI, Data Studio and Lovable
-
-**4. Process:**
-
-**Step 1: Data Preparation:** 
-
-Prepared the sales dataset for analysis by selecting relevant fields and organising the information required for revenue and product performance analysis. 
-
-**Step 2: SQL Data Transformation:**
-
-Used Databricks SQL to transform the transaction data into an analysis-ready table. The analysis included product categories, product types, store locations, transaction dates, time-of-day classifications and sales measures. 
-
-**Step 3: Revenue Calculation:**
-
-Calculated total revenue using transaction quantities and unit prices. Aggregated revenue across product categories, months, store locations and time-of-day classifications. 
-
-**Step 4: Exploratory Data Analysis:**
-
-Examined the processed dataset to identify revenue patterns, compare product categories, evaluate store performance and investigate differences in monthly and time-of-day sales. 
-
-**Step 5: Pivot Table Analysis:** 
-
-Created Excel pivot tables to summarise revenue by product category, month, day of the week, store location and time of day. These summaries supported comparisons across different business dimensions. 
-
-**Step 6: Data Visualisation:**
-
-Developed charts and a sales dashboards using Power BI, Data Studio and Databricks to present the results in a clear, accessible format, allowing users to compare performance across categories, time of the day, month and locations. 
+* Investigate evening sales opportunities through targeted promotions and product offers.
+* Leverage the popularity of coffee and tea to strengthen revenue generation.
+* Investigate February’s revenue decline to identify potential seasonal or operational factors.
+* Evaluate product demand to identify opportunities for improving underperforming categories.
