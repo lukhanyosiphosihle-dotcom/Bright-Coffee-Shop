@@ -8,11 +8,11 @@ Analysed six months of coffee shop transaction data (January–June 2023) to eva
 
 The objective was to uncover revenue drivers, identify underperforming areas and provide actionable recommendations to support business decision-making.
 
-2. **Business Problem**
+2.**Business Problem**
 
 Management needed a consolidated view of sales performance across product categories, store locations and time periods to better understand revenue trends, identify sales opportunities and address underperforming areas.
 
-3. **Technologies Used**
+3.**Technologies Used**
 
 * SQL | Databricks
 * Microsoft Excel
@@ -28,7 +28,7 @@ Management needed a consolidated view of sales performance across product catego
 4. Excel Analysis: Developed pivot tables to summarise and compare sales performance.
 5. Data Visualisation: Built interactive dashboards using Power BI and Google Data Studio to communicate findings.
 
-5. **Key Findings**
+5.**Key Findings**
 
 Revenue Performance
 
