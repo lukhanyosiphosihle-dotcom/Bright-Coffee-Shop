@@ -14,6 +14,7 @@ FROM brightcoffeeshop.sales.coffee_shop;
 
 SELECT COUNT(*) FROM brightcoffeeshop.sales.coffee_shop;
 
+-- Processing data --
 WITH cleaned_sales AS (
 -- STEP 1: Clean and prepare the data    
 SELECT transaction_id, 
